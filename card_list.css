@@ -1,0 +1,75 @@
+@font-face {
+    font-family: SatisFont;
+    src: url(font/Satisfontory_v1.5.ttf);
+}
+
+
+
+
+.button{
+    background-color: rgb(6, 6, 6);
+    color: rgb(240, 243, 246);
+    border-radius: 8px;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    font-family: SatisFont;
+}
+
+h1{
+    text-align: center;
+    font-family: SatisFont;
+}
+
+body {
+    background-color: rgb(231, 164, 18);
+}
+
+.légendaire{
+    text-align: center;
+    margin-top: 280px;
+    font-family: SatisFont;
+}
+
+.épique{
+    text-align: center;
+    margin-top: 40px;
+    font-family: SatisFont;
+}
+
+.rare{
+    text-align: center;
+    margin-top: 40px;
+    font-family: SatisFont;
+}
+
+
+.commune{
+    text-align: center;
+    margin-top: 40px;
+    font-family: SatisFont;   
+}
+
+
+
+
+/* CSS Bas de Page */
+footer{
+    background-color: rgb(41, 39, 39);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    font-family: SatisFont;
+}
+
+#copyright {
+    text-align: left;
+    font-family: SatisFont;
+}
+
+#site{
+    margin-left: 650px;
+    font-family: SatisFont;
+}

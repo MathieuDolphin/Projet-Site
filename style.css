@@ -1,0 +1,150 @@
+@font-face {
+    font-family: SatisFont;
+    src: url(font/Satisfontory_v1.5.ttf);
+}
+
+@media screen and (max-width: 800px) {
+    .bloc-1 {
+        width: 100%;
+    }
+}
+
+body {
+    background-color: rgb(231, 164, 18);
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS haut de page */
+h1 {
+    text-align: center;
+    font-family: SatisFont;
+}
+
+.button {
+    background-color: rgb(6, 6, 6);
+    color: rgb(240, 243, 246);
+    border-radius: 8px;
+    height: 50px;
+    width: 100%; 
+    font-size: 18px;
+    font-family: SatisFont;
+    max-width: 200px; 
+    margin: 10px auto; 
+}
+
+
+.logo-satis{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* CSS Milieu de page */
+.presentation-contenu {
+    display: flex;
+    margin-top: 90px;
+}
+
+.bloc-1 {
+    width: 50%;
+    height: 150px;
+    text-align: center;
+    color: rgb(59, 17, 4);
+    font-family: SatisFont;
+}
+
+.bloc-2 {
+    width: 50%;
+    height: 150px;
+    text-align: center;
+    font-family: SatisFont;
+}
+
+.pioneer-love {
+    margin-left: 550px;
+}
+
+.pioneer-salut {
+    margin-left: 450px;
+}
+
+.video-trailer-v1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: SatisFont;
+}
+
+/* CSS Bas de Page */
+footer {
+    background-color: rgb(41, 39, 39);
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: SatisFont;
+}
+
+#copyright {
+    text-align: left;
+    font-family: SatisFont;
+    color: blue;
+}
+
+/* Mise en page responsive */
+@media screen and (max-width: 800px) {
+    .presentation-contenu {
+        flex-direction: column; /* Empile les éléments verticalement sur petits écrans */
+    }
+
+    .bloc-1, .bloc-2 {
+        width: 100%; /* Pleine largeur pour les petits écrans */
+        height: auto; /* Supprime la hauteur fixe pour une meilleure adaptabilité */
+        margin: 10px 0;
+    }
+
+    .pioneer-love, .pioneer-salut {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .video-trailer-v1 {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+
+    #site, #copyright {
+        text-align: center;
+        margin: 0;
+    }
+
+    .logo-satis{
+        width: 100%;
+    }
+}
+
+/* Ajustements supplémentaires pour très petits écrans (téléphones) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px; /* Plus petite pour les téléphones */
+    }
+
+    .button {
+        font-size: 14px;
+        height: 40px;
+    }
+
+    footer {
+        font-size: 12px; /* Taille de police réduite pour le footer */
+    }
+}
