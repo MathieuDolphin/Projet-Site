@@ -1,0 +1,350 @@
+@font-face {
+    font-family: SatisFont;
+    src: url(font/Satisfontory_v1.5.ttf);
+}
+
+@media screen and (max-width: 800px) {
+    .bloc-1 {
+        width: 100%;
+    }
+}
+
+body {
+    background-color: rgb(231, 164, 18);
+    margin: 0; /* Supprime les marges par défaut */
+    font-family: Arial, sans-serif; /* Choisissez une police */
+    position: relative; /* Nécessaire pour le positionnement absolu du bouton */body {
+    margin: 0; /* Supprime les marges par défaut */
+    font-family: Arial, sans-serif; /* Choisissez une police */
+    position: relative; /* Nécessaire pour le positionnement absolu du bouton */
+}
+
+p {
+    text-align: center; /* Centre le texte à l'intérieur des balises <p> */
+    margin: 10px 0; /* Ajoute un espacement vertical autour des paragraphes */
+    font-family: SatisFont;
+}
+
+.button {
+    position: absolute; /* Positionne le bouton */
+    top: 10px; /* Distance du haut de la page */
+    left: 10px; /* Distance du côté gauche de la page */
+    background-color: rgb(6, 6, 6);
+    color: rgb(240, 243, 246);
+    border-radius: 8px;
+    height: 50px;
+    width: 100px; /* Largeur fixe pour le bouton */
+    font-size: 18px;
+    font-family: SatisFont;
+}
+
+h1 {
+    text-align: center;
+    font-family: SatisFont;
+    margin-top: 60px; /* Espace au-dessus du titre pour éviter qu'il ne chevauche le bouton */
+}
+
+form {
+    background-color: #f9f9f9; /* Couleur de fond du formulaire */
+    padding: 20px; /* Ajoute un peu d'espace à l'intérieur du formulaire */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    width: 300px; /* Largeur fixe pour le formulaire */
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+    margin-top: 20px; /* Espace au-dessus du formulaire */
+    font-family: SatisFont;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Prend toute la largeur du formulaire */
+    padding: 10px; /* Espace intérieur */
+    margin: 10px 0; /* Espace entre les champs */
+    border: 1px solid #ccc; /* Bordure légère */
+    border-radius: 3px; /* Coins arrondis pour les champs */
+    font-family: SatisFont;
+}
+
+label {
+    display: block; /* Affiche chaque label en tant qu'élément de bloc */
+    margin: 10px 0; /* Ajoute un espace vertical entre les labels */
+}
+
+button {
+    width: 100%; /* Prend toute la largeur du formulaire */
+    padding: 10px; /* Espace intérieur */
+    background-color: #007BFF; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 3px; /* Coins arrondis pour le bouton */
+    cursor: pointer; /* Curseur en forme de main */
+}
+
+button:hover {
+    background-color: #0056b3; /* Couleur du bouton au survol */
+}body {
+    margin: 0; /* Supprime les marges par défaut */
+    font-family: Arial, sans-serif; /* Choisissez une police */
+    position: relative; /* Nécessaire pour le positionnement absolu du bouton */
+}
+
+.button {
+    position: absolute; /* Positionne le bouton */
+    top: 10px; /* Distance du haut de la page */
+    left: 10px; /* Distance du côté gauche de la page */
+    background-color: rgb(6, 6, 6);
+    color: rgb(240, 243, 246);
+    border-radius: 8px;
+    height: 50px;
+    width: 100px; /* Largeur fixe pour le bouton */
+    font-size: 18px;
+    font-family: SatisFont;
+}
+
+h1 {
+    text-align: center;
+    font-family: SatisFont;
+    margin-top: 60px; /* Espace au-dessus du titre pour éviter qu'il ne chevauche le bouton */
+}
+
+form {
+    background-color: #f9f9f9; /* Couleur de fond du formulaire */
+    padding: 20px; /* Ajoute un peu d'espace à l'intérieur du formulaire */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    width: 300px; /* Largeur fixe pour le formulaire */
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+    margin-top: 20px; /* Espace au-dessus du formulaire */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Prend toute la largeur du formulaire */
+    padding: 10px; /* Espace intérieur */
+    margin: 10px 0; /* Espace entre les champs */
+    border: 1px solid #ccc; /* Bordure légère */
+    border-radius: 3px; /* Coins arrondis pour les champs */
+}
+
+label {
+    display: block; /* Affiche chaque label en tant qu'élément de bloc */
+    margin: 10px 0; /* Ajoute un espace vertical entre les labels */
+}
+
+button {
+    width: 100%; /* Prend toute la largeur du formulaire */
+    padding: 10px; /* Espace intérieur */
+    background-color: #007BFF; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 3px; /* Coins arrondis pour le bouton */
+    cursor: pointer; /* Curseur en forme de main */
+}
+
+button:hover {
+    background-color: #0056b3; /* Couleur du bouton au survol */
+}
+}
+
+form {
+    background-color: #f9f9f9; /* Couleur de fond du formulaire */
+    padding: 20px; /* Ajoute un peu d'espace à l'intérieur du formulaire */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    width: 400px; /* Largeur fixe pour le formulaire */
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Prend toute la largeur du formulaire */
+    padding: 10px; /* Espace intérieur */
+    margin: 10px 0; /* Espace entre les champs */
+    border: 1px solid #ccc; /* Bordure légère */
+    border-radius: 3px; /* Coins arrondis pour les champs */
+}
+
+button {
+    width: 100%; /* Prend toute la largeur du formulaire */
+    padding: 10px; /* Espace intérieur */
+    background-color: #007BFF; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 3px; /* Coins arrondis pour le bouton */
+    cursor: pointer; /* Curseur en forme de main */
+}
+
+button:hover {
+    background-color: #0056b3; /* Couleur du bouton au survol */
+}
+
+
+label {
+    display: block; /* Affiche chaque label en tant qu'élément de bloc */
+    margin: 10px 0; /* Ajoute un espace vertical entre les labels */
+}
+
+/* CSS haut de page */
+h1 {
+    text-align: center;
+    font-family: SatisFont;
+}
+
+.button {
+    background-color: rgb(6, 6, 6);
+    color: rgb(240, 243, 246);
+    border-radius: 8px;
+    height: 50px;
+    width: 100%; 
+    font-size: 18px;
+    font-family: SatisFont;
+    max-width: 200px; 
+    margin: 10px auto; 
+}
+
+
+.logo-satis{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* CSS Milieu de page */
+.presentation-contenu {
+    display: flex;
+    margin-top: 90px;
+}
+
+.bloc-1 {
+    width: 50%;
+    height: 150px;
+    text-align: center;
+    color: rgb(59, 17, 4);
+    font-family: SatisFont;
+}
+
+.bloc-2 {
+    width: 50%;
+    height: 150px;
+    text-align: center;
+    font-family: SatisFont;
+}
+
+.pioneer-love {
+    margin-left: 550px;
+}
+
+.pioneer-salut {
+    margin-left: 450px;
+}
+
+.video-trailer-v1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: SatisFont;
+}
+
+/* CSS Bas de Page */
+footer {
+    background-color: rgb(41, 39, 39);
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: SatisFont;
+}
+
+#copyright {
+    text-align: left;
+    font-family: SatisFont;
+    color: blue;
+}
+
+/* Mise en page responsive */
+@media screen and (max-width: 800px) {
+    .presentation-contenu {
+        flex-direction: column; /* Empile les éléments verticalement sur petits écrans */
+    }
+
+    .bloc-1, .bloc-2 {
+        width: 100%; /* Pleine largeur pour les petits écrans */
+        height: auto; /* Supprime la hauteur fixe pour une meilleure adaptabilité */
+        margin: 10px 0;
+    }
+
+    .pioneer-love, .pioneer-salut {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .video-trailer-v1 {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+
+    #site, #copyright {
+        text-align: center;
+        margin: 0;
+    }
+
+    .logo-satis{
+        width: 100%;
+    }
+}
+
+/* Ajustements supplémentaires pour très petits écrans (téléphones) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px; /* Plus petite pour les téléphones */
+    }
+
+    .button {
+        font-size: 14px;
+        height: 40px;
+    }
+
+    footer {
+        font-size: 12px; /* Taille de police réduite pour le footer */
+    }
+}
+
+
+.message-error {
+    border: 1px solid rgba(212, 42, 0, 1);
+    color: rgb(212, 42, 0);
+    background-color:rgba(212, 42, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.message-success {
+    border: 1px solid rgb(81, 150, 2);
+    color:rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display:none;
+}
+
+
+.success {
+    border-color: green;
+}
+
+.error {
+    border-color: red;
+}

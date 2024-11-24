@@ -5,44 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gameplay</title>
+
 </head>
 <body>
-    <a href="index.html"><button class="button">Acceuil</button></a>
+    <div class="button-container">
+        <a href="index.html"><button class="button">Acceuil</button></a>
+        <button type="button" id="DarkMode" class="button">DarkMode</button>
+        <button type="button" id="LightMode" class="button" style="display: none;">LightMode</button>
+    </div>
     <h1>Gameplay du jeu</h1>
 
-    <section class="presentation-section">
-        <article class="presentation-contenu"> 
-        <div class="bloc-1">
-            <h2>La Machinerie !</h2>
-            <p>Et oui usine dis machines, il existe 3 types de machines :</p>
-            <p>- les Mineurs</p>
-            <p>- les Fonderies</p>
-            <p>- les Constructeurs</p> <img src="img/constructor.webp" alt="constructor" class="img-construct"> <img src="img/particle_accelerator.webp" alt="acc parti" class="img-acp">
+    <ul class="tabs">
+        <li class="tab tab-content1 tab-active">La Machinerie !</li>
+        <li class="tab tab-content2">Les Generateurs !</li>
+        <li class="tab tab-content3">Et les batiments Speciaux !</li>
+    </ul>
+    <div class="content content1 active">
+            <h2>La Machinerie !</h2><br>
+            <p>Et oui usine dis machines, il existe 3 types de machines :</p> <br>
+            <p>- les Mineurs</p> <br> 
+            <p>- les Fonderies</p> <br>
+            <p>- les Constructeurs</p> 
             <p>Chaque machine à son importance et elles sont toutes utilise a tous moment</p>
-        </div>
-
-        <div class="bloc-2">
-            <h2>Les Generateurs !</h2>
-            <img src="img/coal_gen.webp" alt="Centrale Charbon" class="img-coalgen">
-            <p>Bien sur pour alimenter vos usines il vous faudra de quoi alimenter tous ca !</p> 
+    </div>
+    <div class="content content2">
+            <h2>Les Generateurs !</h2><br>
+            <p>Bien sur pour alimenter vos usines il vous faudra de quoi alimenter tous ca !</p> <br>
             <p>Pour ca le jeu est genereux, en effet vous commencer par des bruleurs de biomasse, puis vous enchaine sur des generateurs a charbon. Vous decouvrez le petrol ainsi que le gaz et pour finir la source d'energie Ultime, j'ai nomme le Reacteur Nucleaires</p>
-            <img src="img/central_nuke.webp" alt="Centrale nuculaire" class="img-nuke">
-            
-        </div>
-
-        <div class="bloc-3">
-            <h3>Et les batiments Speciaux !</h3>
-            <p>Pour envoyer vos ressources a votre colonnie vous devez construire un ascenseur orbitale, c'est le plus gros et grand batiments que vous aurez à creer</p>
+    </div>
+    <div class="content content3">
+            <h2>Et les batiments Speciaux !</h2><br>
+            <p>Pour envoyer vos ressources a votre colonnie vous devez construire un ascenseur orbitale, c'est le plus gros et grand batiments que vous aurez à creer</p><br>
             <p>Mais la colonnie et genereuse avec vous et vous a disposition des broyeurs qui vous donnerons des tickets pour acheter certaines ressources. </p>
-            <img src="img/space_elevator.webp" alt="ascenseur orbitale" class="img-se">
-        </div>
-        </article>
-    </section>
+    </div>
 
     <footer> <!-- Bas de page -->
-        <p>
-            <a id="copyrigth">©Made by Mathieu Dolphin</a>
-        </p>
+        <p><a id="copyrigth">©Made by Mathieu Dolphin</a></p>
+        <a href="newsletters.html">Recevoir les Newsletters</a>
     </footer>
+    <script src="js/gameplay.js"></script>
 </body>
 </html>

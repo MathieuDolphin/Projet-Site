@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="newsletters.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletters</title>
+</head>
+<body>
+    <a href="index.html"><button class="button">Acceuil</button></a>
+    <h1>Recevoir les Newsletters</h1>
+    <p>Si vous souhaitez recevoir les Newsletters du jeu SatisFactory je vous laisse completer le formulaire si dessous : </p>
+    <form>
+        <input type="text" id="pseudo" placeholder="Mettez un pseudo de minimum 6 caracteres" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Mettez un Mot de passe de minimum 8 caracteres" required>
+        <input type="password" id="confirmPassword" placeholder="Verification Mot de passe" required>
+        
+        <p>Que souhaitez vous recevoir comme Newsletters ?</p>
+        <div>
+            <label><input type="radio" name="question" value="option1"> Les Patchs</label>
+            <label><input type="radio" name="question" value="option2"> Les Nouvelles Versions</label>
+            <label><input type="radio" name="question" value="option3"> Les evenement de la communaute</label>
+            <label><input type="radio" name="question" value="option4"> L'ensemble des informations</label>
+        </div>
+        
+        <button type="submit">Soumettre</button>
+        <ul class="error-list"></ul>
+    </form>
+    <script src="js/newslettre.js"></script>
+</body>
+</html>

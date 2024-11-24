@@ -97,17 +97,117 @@ body {
 /* CSS Bas de Page */
 footer {
     background-color: rgb(41, 39, 39);
-    padding-top: 2px;
-    padding-bottom: 0px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Ajout de padding pour plus d'espace */
     font-family: SatisFont;
+    position: relative; /* Si vous voulez que le footer soit en bas de la page */
+    bottom: 0; /* Pour le maintenir en bas */
+    width: 100%; /* Pour que le footer prenne toute la largeur */
+}
+
+footer p, footer a {
+    margin: 0; /* Enlève les marges par défaut */
 }
 
 #copyright {
     text-align: left;
     font-family: SatisFont;
+}
+
+
+.dark-mode {
+    background-color: rgb(104, 74, 8);
+    color: #ffffff;
+    /* Ajoutez d'autres styles pour le mode sombre */
+}
+  /* Mode clair */
+.light-mode {
+    background-color: rgb(231, 164, 18);
+    color: #000000;
+    /* Ajoutez d'autres styles pour le mode clair */
+}
+
+.red {
+    color: red;
+}
+
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: #e0e0e0;
+}
+
+.tab-active {
+    background-color: #007bff;
+    color: white;
+    border-color: #0056b3;
+}
+
+.content {
+    display: none;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.content.active {
+    display: block;
+}
+
+
+* {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body {
+    width: 80%;
+    margin: 80px auto;
+}
+
+form{ 
+    border : 1px solid rgba(153,153,153,0.6);
+}
+
+form>div {
+    margin : 30px 20px;
+}
+
+label {
+    display : block;
+    margin-bottom : 8px; 
+}
+
+input {
+    height:20px;
+    width: 40%;
+}
+
+button {
+    margin-left:20px;
+    margin-bottom:30px;
+    padding:16px 32px;
+    cursor:pointer;
 }
 
 
